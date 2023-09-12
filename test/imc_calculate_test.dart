@@ -20,6 +20,6 @@ void main() {
     expect(interpretarIMC(22.0), "Peso normal.");
 
     // Teste para uma pessoa com obesidade mórbida.
-    expect(interpretarIMC(40.0), "Obesidade Grau 3 (Obesidade Mórbida)");
+    expect(interpretarIMC(40.0), "Obesidade Grau 3 (Obesidade Mórbida).");
   });
 }
